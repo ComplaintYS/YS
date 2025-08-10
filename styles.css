@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent-color) !important;
 }
 
-.nav-link.join-fb-btn {
+.navbar .nav-item .nav-link.join-fb-btn {
     background-color: #1877f2;
     color: white !important;
     border-radius: 20px;
@@ -262,16 +262,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     transition: all 0.2s ease;
     border: 2px solid #1877f2;
+    margin: 0 0.25rem;
 }
 
-.nav-link.join-fb-btn:hover {
+.navbar .nav-item .nav-link.join-fb-btn:hover {
     background-color: #ffffff;
     color: #1877f2 !important;
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(24, 119, 242, 0.2);
 }
 
-.nav-link.join-fb-btn i {
+.navbar .nav-item .nav-link.join-fb-btn i {
     font-size: 1.1rem;
 }
 
